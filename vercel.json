@@ -1,9 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "bioscope/app.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "bioscope/app.py" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/bioscope/app" }
   ]
 }
