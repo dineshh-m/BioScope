@@ -1,0 +1,21 @@
+.movies-wrapper {
+    margin: 0 2rem;
+}
+
+.movies {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.movies::-webkit-scrollbar {
+    height: 0;
+}
+
+
+.sec-title {
+    margin-bottom: 1.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 10%;
+    border-bottom-color: coral;
+}

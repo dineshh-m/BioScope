@@ -1,0 +1,15 @@
+.tab-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+button.active {
+    border: 1px white solid;
+}

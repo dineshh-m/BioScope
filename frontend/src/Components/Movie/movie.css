@@ -1,0 +1,7 @@
+.movie-wrapper {
+    min-width: 300px;
+    width: 400px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

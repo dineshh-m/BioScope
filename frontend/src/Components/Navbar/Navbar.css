@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav-heading {
+    font-size: 2rem;
+}
+
+.nav-links {
+    margin-right: 3rem;
+}
+
+.nav-links-lists {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.87);
+}
