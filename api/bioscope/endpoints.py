@@ -99,6 +99,9 @@ def fetch_people(name):
 
     return jsonify(response)
 
+@app.route("/")
+def home():
+    return "Hello, world"
 
 @app.route('/api/home')
 def index():
