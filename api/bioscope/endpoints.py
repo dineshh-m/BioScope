@@ -1,4 +1,4 @@
-from bioscope import app
+from .app import app
 from flask import jsonify
 from .load_env import getenv
 import requests
