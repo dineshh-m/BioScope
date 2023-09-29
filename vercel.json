@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/bioscope/endpoints.py", "use": "@vercel/python" }
+    { "src": "bioscope/endpoints.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "api/bioscope/endpoints.py" }
+    { "src": "/(.*)", "dest": "bioscope/endpoints.py" }
   ]
 }
